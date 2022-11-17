@@ -1,6 +1,6 @@
 --[[
 
-shrumta Hub ui library Interface Suite
+Roxy Hub ui library Interface Suite
 by Dream
 
 ]]
@@ -9,9 +9,9 @@ by Dream
 
 local Release = "Beta 7R"
 local NotificationDuration = 6.5
-local RayfieldFolder = "shrumta Hub"
+local RayfieldFolder = "Roxy Hub"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
-local ConfigurationExtension = ".SH"
+local ConfigurationExtension = ".ROXY"
 
 
 
@@ -943,7 +943,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			end
 			
 			if Settings.Discord.RememberJoins then -- We do logic this way so if the developer changes this setting, the user still won't be prompted, only new users
-				writefile(RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"shrumta hub RememberJoins is true for this invite, this invite will not ask you to join again")
+				writefile(RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"Roxy hub RememberJoins is true for this invite, this invite will not ask you to join again")
 			end
 		else
 			
